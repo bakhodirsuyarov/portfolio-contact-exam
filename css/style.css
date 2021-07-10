@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Public Sans';
+  src: url("../font/PublicSans-Regular.woff2") format("woff2"),
+      url("../font/PublicSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ibarra Real Nova';
+  src: url("../font/IbarraRealNova-Bold.woff2") format("woff2"),
+      url("../font/IbarraRealNova-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 html{
   box-sizing: border-box;
 }
@@ -13,7 +33,7 @@ body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background: #F2F2F2;
+  background: #FFFFFF;
   font-family: 'DM Serif Display', Arial,  sans-serif;
   font-family: 'Public Sans', Arial, sans-serif;
 }
@@ -180,12 +200,16 @@ body{
   width: 100%;
   padding: 9px 0px 9px 16px;
   margin-bottom: 24px;
+  border: none;
+  background: #dbdbdb;
 }
 
 .info-section__text{
   width: 100%;
   padding: 9px 0px 57px 16px;
   margin-bottom: 24px;
+  border: none;
+  background: #d3d3d6;
 }
 
 
@@ -432,7 +456,7 @@ body{
     width: 50%;
   }
 
-  
+
   /* FOOTER */
 
 
